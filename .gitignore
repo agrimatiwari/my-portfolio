@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Node modules (if you ever add npm)
+node_modules/
+
+# Build folders
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# macOS metadata
+.AppleDouble
+.LSOverride
+
+# Windows metadata
+Desktop.ini

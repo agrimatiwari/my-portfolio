@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrima Tiwari — Engineering Student & Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- FLOATING NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-dots">
+    <span class="dot dot-red"></span>
+    <span class="dot dot-yellow"></span>
+    <span class="dot dot-green"></span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home" class="nav-link active" data-nav="home">home</a></li>
+    <li><a href="#about" class="nav-link" data-nav="about">about</a></li>
+    <li><a href="#skills" class="nav-link" data-nav="skills">skills</a></li>
+    <li><a href="#projects" class="nav-link" data-nav="projects">projects</a></li>
+    <li><a href="#contact" class="nav-link" data-nav="contact">contact</a></li>
+  </ul>
+  <span class="nav-cursor">_</span>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner reveal">
+    <p class="eyebrow">~/whoami</p>
+    <h1 class="hero-name">Agrima Tiwari</h1>
+    <p class="hero-role">Engineering Student <span class="dim">&amp;</span> Developer</p>
+    <p class="hero-desc">Building interactive web applications and continuously learning new technologies — one commit at a time.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="assets/Agrima_Tiwari_Resume.pdf" class="btn btn-ghost" download="Agrima_Tiwari_Resume.pdf">Download Resume</a>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <span>scroll</span>
+    <span class="scroll-line"></span>
+  </div>
+</header>
+
+<main>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <p class="eyebrow reveal">~/about</p>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <h2 class="section-title">Hello, I'm Agrima.</h2>
+        <p>
+          I'm an engineering student passionate about software development and problem
+          solving. I like taking systems apart to understand how they work — and then
+          building my own versions, better each time.
+        </p>
+        <p>
+          I enjoy building web applications, learning new technologies, and sharpening
+          my development skills through hands-on projects rather than tutorials alone.
+        </p>
+      </div>
+      <div class="about-tags reveal">
+        <div class="tag-card">
+          <span class="tag-icon">🎓</span>
+          <div>
+            <p class="tag-title">Engineering Student</p>
+            <p class="tag-sub">Always mid-semester, always building</p>
+          </div>
+        </div>
+        <div class="tag-card">
+          <span class="tag-icon">💻</span>
+          <div>
+            <p class="tag-title">Web Development</p>
+            <p class="tag-sub">From layout to logic</p>
+          </div>
+        </div>
+        <div class="tag-card">
+          <span class="tag-icon">🌱</span>
+          <div>
+            <p class="tag-title">Currently Learning</p>
+            <p class="tag-sub">Something new, on purpose</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <p class="eyebrow reveal">~/skills --list</p>
+    <h2 class="section-title reveal">What I work with</h2>
+    <div class="skills-grid">
+      <div class="skill-panel reveal">
+        <p class="skill-panel-title">Languages</p>
+        <ul class="skill-list">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          <li>C++</li><li>Java</li><li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-panel reveal">
+        <p class="skill-panel-title">Frameworks &amp; Technologies</p>
+        <ul class="skill-list">
+          <li>Flutter</li><li>PHP</li><li>MySQL</li>
+        </ul>
+      </div>
+      <div class="skill-panel reveal">
+        <p class="skill-panel-title">Tools</p>
+        <ul class="skill-list">
+          <li>Git</li><li>GitHub</li><li>VS Code</li><li>XAMPP</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <p class="eyebrow reveal">~/projects --all</p>
+    <h2 class="section-title reveal">Completed Projects</h2>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-cover">
+          <img src="images/student.png"
+              alt="Student Management System">
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Student Management System</h3>
+          <p class="project-desc">
+              A student information management system developed using Flutter,
+              PHP, and MySQL. The application supports CRUD operations on student
+              records through a PHP backend connected to a MySQL database hosted
+              locally using XAMPP.
+          </p>
+          <div class="project-stack">
+              <span class="badge">Flutter</span>
+              <span class="badge">PHP</span>
+              <span class="badge">MySQL</span>
+              <span class="badge">XAMPP</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-cover">
+            <img src="images/currency.png" 
+                alt="Currency Converter">
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Currency Converter</h3>
+          <p class="project-desc">
+              A responsive currency converter that retrieves real-time exchange
+              rates using a public API and instantly converts between multiple
+              international currencies.
+          </p>
+          <div class="project-stack">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/agrimatiwari/currency-converter" target="_blank" rel="noopener noreferrer" class="link-btn">View Source Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-cover">
+            <img src="images/tic.png"
+                alt="Tic Tac Toe">
+        </div>
+        <div class="project-body">
+            <h3 class="project-title">Tic Tac Toe</h3>
+            <p class="project-desc">
+                A responsive two-player Tic Tac Toe game featuring winner
+                detection, draw handling, score reset functionality, and a clean,
+                interactive interface.
+            </p>
+            <div class="project-stack">
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+                <span class="badge">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/agrimatiwari/tic-tac-toe-game" target="_blank" rel="noopener noreferrer" class="link-btn">View Source Code</a>
+            </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-cover">
+            <img src="images/rps.png"
+                alt="Rock Paper Scissors">
+        </div>
+        <div class="project-body">
+            <h3 class="project-title">Rock Paper Scissors</h3>
+            <p class="project-desc">
+                An interactive browser game featuring computer-generated moves,
+                score tracking, reset functionality, and smooth UI animations.
+            </p>
+            <div class="project-stack">
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+                <span class="badge">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/agrimatiwari/rock-paper-scissors" target="_blank" rel="noopener noreferrer" class="link-btn">View Source Code</a>
+            </div>
+        </div>
+      </article>
+    </section>
+
+  <section class="section" id="in-progress">
+    <p class="eyebrow reveal">~/currently-working</p>
+    <h2 class="section-title reveal">In Progress</h2>
+    <div class="projects-grid single-project">
+        <article class="project-card reveal">
+            <div class="project-cover">
+                <img src="images/cybersecurity.png"
+                     alt="Cybersecurity Dashboard">
+            </div>
+            <div class="project-body">
+                <h3 class="project-title">Cybersecurity Dashboard</h3>
+                <p class="project-desc">
+                    A cybersecurity dashboard currently being developed as a
+                    <strong>group project</strong>. I contributed to the frontend
+                    implementation. This repository contains the frontend code,
+                    while backend development and integration are maintained
+                    separately.
+                </p>
+                <div class="project-stack">
+                    <span class="badge">Group Project</span>
+                    <span class="badge">Frontend</span>
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/agrimatiwari/Cyber-Project"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="link-btn">
+                        View Frontend Repository
+                    </a>
+                </div>
+            </div>
+        </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <p class="eyebrow reveal">~/contact --me</p>
+    <h2 class="section-title reveal">Let's talk</h2>
+    <p class="contact-lead reveal">Have a project, an opportunity, or just want to say hi? My inbox is open.</p>
+    <div class="contact-links reveal">
+
+      <a href="https://github.com/agrimatiwari" target="_blank" rel="noopener noreferrer" class="contact-link">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://www.linkedin.com/in/agrima-tiwari-24162a37a" target="_blank" rel="noopener noreferrer" class="contact-link">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="mailto:agrima.tiwari2007@gmail.com" class="contact-link">
+        <span class="contact-label">Email</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="assets/Agrima_Tiwari_Resume.pdf" download="Agrima_Tiwari_Resume.pdf" class="contact-link">
+        <span class="contact-label">Download Resume</span>
+        <span class="contact-arrow">↓</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Made by Agrima Tiwari</p>
+  <p class="footer-year">&copy; 2026</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
