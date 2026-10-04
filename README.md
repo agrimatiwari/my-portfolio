@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A modern, responsive portfolio website showcasing my projects, skills, and experience.
+A personal portfolio showcasing my projects, skills, and journey as a Computer Engineering student.
 
 ## Technologies Used
 
